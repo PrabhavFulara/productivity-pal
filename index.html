@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ProductivityPal</title>
+</head>
+<body>
+  <header>
+    <h1>Welcome to ProductivityPal</h1>
+    <p id="greeting">Hi, <span id="userName">{User}</span>!</p>
+    <input type="text" id="nameInput" placeholder="Enter your name" />
+    <button onclick="setUserName()">Submit</button>
+</header>
+
+
+    <nav>
+        <ul>
+            <li><a href="pomodoro.html">Pomodoro Timer</a></li>
+            <li><a href="task-planner.html">Task Planner</a></li>
+            <li><a href="hydration-reminder.html">Hydration Reminder</a></li>
+            <li><a href="stopwatch.html">Stopwatch</a></li>
+            <li><a href="motivational-quotes.html">Motivational Quotes</a></li>
+            <li><a href="background-music.html">Background Music</a></li>
+            <li><a href="posture-checker.html">Posture Checker</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="tool-box">
+            <h2>Get Started with Your Tools</h2>
+            <div class="tool-grid">
+                <div class="tool" id="pomodoroLink">
+                    <h3>Pomodoro Timer</h3>
+                    <p>Manage your time effectively!</p>
+                </div>
+                <div class="tool" id="taskPlannerLink">
+                    <h3>Task Planner</h3>
+                    <p>Plan your daily tasks.</p>
+                </div>
+                <div class="tool" id="hydrationLink">
+                    <h3>Hydration Reminder</h3>
+                    <p>Stay hydrated!</p>
+                </div>
+                <div class="tool" id="stopwatchLink">
+                    <h3>Stopwatch</h3>
+                    <p>Track your time.</p>
+                </div>
+                <div class="tool" id="quotesLink">
+                    <h3>Motivational Quotes</h3>
+                    <p>Get inspired!</p>
+                </div>
+                <div class="tool" id="musicLink">
+                    <h3>Background Music</h3>
+                    <p>Play your favorite tunes.</p>
+                </div>
+                <div class="tool" id="postureCheckerLink">
+                    <h3>Posture Checker</h3>
+                    <p>Improve your posture!</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 ProductivityPal. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

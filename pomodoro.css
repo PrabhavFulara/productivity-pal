@@ -1,0 +1,38 @@
+body {
+  background-color: #9cdded;
+}
+
+.timer {
+  font-size: 3rem;
+  color: #e74c3c;
+  text-align: center;
+  margin: 20px 0;
+  animation: pulse 1s infinite;
+}
+
+button {
+  background: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #c0392b;
+}
+
+@keyframes pulse {
+  0% {
+      transform: scale(1);
+  }
+  50% {
+      transform: scale(1.05);
+  }
+  100% {
+      transform: scale(1);
+  }
+}
