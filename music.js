@@ -1,4 +1,4 @@
-const audio = new Audio("../images/bella.mp3");
+const audio = new Audio("./bella.mp3");
 audio.loop = true;
 
 document.getElementById("playMusicButton").addEventListener("click", function() {
